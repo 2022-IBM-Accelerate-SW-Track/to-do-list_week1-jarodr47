@@ -19,7 +19,7 @@ const Todos = ({ todos }) => {
               AddTodo.js. All we need to do is return the todo list item */}
               <CardContent>
                 <span style={{ padding: "50px" }}>
-                  {}
+                  {todo.content}
                 </span>
               </CardContent>
             </Card>
